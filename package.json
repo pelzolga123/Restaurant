@@ -1,0 +1,29 @@
+{
+  "name": "restaurant",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "lint":"eslint"
+  },
+  "dependencies": {
+    "webpack": "^4.41.2"
+  },
+  "devDependencies": {},
+  "eslint": "^6.6.0",
+  "eslint-config-airbnb-base": "^14.0.0",
+  "eslint-plugin-import": "^2.18.2",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pelzolga123/Restaurant.git"
+  },
+  "author": "Olga Pelts",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pelzolga123/Restaurant/issues"
+  },
+  "homepage": "https://github.com/pelzolga123/Restaurant#readme"
+}
