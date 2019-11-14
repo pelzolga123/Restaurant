@@ -1,0 +1,5 @@
+const about = () =>{
+
+};
+
+export { about };
