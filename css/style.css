@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css?family=Dancing+Script:400,700|Satisfy&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Satisfy|Trade+Winds&display=swap');
+body{
+    margin: 0;
+}
+#firstSection{
+    background: url("../img/about-main.jpg") no-repeat;
+    height:950px;
+}
+
+button{
+    font-size: 60px;
+    color: 	rgb(156, 124, 73);
+    margin-left: 5px;
+    border: none;
+    background-color: transparent;
+    font-family: 'Satisfy', cursive;
+    background: -webkit-linear-gradient(transparent, transparent),
+    -webkit-linear-gradient(top, rgba(213,173,109,1) 0%, rgba(213,173,109,1) 26%, rgba(226,186,120,1) 35%, rgba(163,126,67,1) 45%, rgba(145,112,59,1) 61%, rgba(213,173,109,1) 100%);
+    background: -o-linear-gradient(transparent, transparent);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-left: 45px;
+    cursor:pointer;
+    margin-top: 10%;
+}
+#main{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+#aboutHeader{
+    text-align: center;
+    font-size: 60px;
+    color: 	rgb(156, 124, 73);
+    background-color: transparent;
+    font-family: 'Satisfy', cursive;
+    background: -webkit-linear-gradient(transparent, transparent),
+    -webkit-linear-gradient(top, rgba(213,173,109,1) 0%, rgba(213,173,109,1) 26%, rgba(226,186,120,1) 35%, rgba(163,126,67,1) 45%, rgba(145,112,59,1) 61%, rgba(213,173,109,1) 100%);
+    background: -o-linear-gradient(transparent, transparent);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+#layer{
+    background-color: rgba(99, 99, 102, 0.8);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+}
+.croissant, .macaroon, .donut{
+    width:25%;
+}
+.donut_line, .croissant_line, .macaroon_line{
+    margin-right: 5%;
+    margin-left: 5%;
+}
+#logo_img{
+    padding: 140px 0 25px 0;
+}
+#croissantSection, #macaroonSection, #donutSection{
+    padding: 20px 20px;
+    border: 3px solid rgba(99, 99, 102, 0.8);
+    border-radius: 10px;
+    margin: 20px;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+}
+#croissantInfo, #macaroonInfo, #donutInfo{
+    text-align: center;
+    font-size: 28px;
+    font-family: 'Satisfy', cursive;
+}
+
+.logo{
+    border: 43px solid transparent;
+    padding: 15px;
+    border-image: url(../img/line_1.png) 55 stretch stretch;
+
+    -webkit-animation: fadein 4s;
+       -moz-animation: fadein 4s; 
+        -ms-animation: fadein 4s; 
+         -o-animation: fadein 4s; 
+            animation: fadein 4s;
+}
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+@-moz-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+@-webkit-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+@-ms-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+@-o-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
