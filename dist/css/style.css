@@ -2,10 +2,11 @@
 @import url('https://fonts.googleapis.com/css?family=Satisfy|Trade+Winds&display=swap');
 body{
     margin: 0;
+    background-color: #E6D0B5;
 }
 #firstSection{
     background: url("../img/about-main.jpg") no-repeat;
-    height:950px;
+    height:949px;
 }
 
 button{
@@ -24,12 +25,8 @@ button{
     cursor:pointer;
     margin-top: 10%;
 }
-#main{
-    width: 80%;
-    margin-left: auto;
-    margin-right: auto;
-}
-#aboutHeader{
+
+#aboutHeader, #menuHeader{
     text-align: center;
     font-size: 60px;
     color: 	rgb(156, 124, 73);
@@ -63,18 +60,115 @@ button{
 }
 #croissantSection, #macaroonSection, #donutSection{
     padding: 20px 20px;
-    border: 3px solid rgba(99, 99, 102, 0.8);
+    border: 3px solid rgba(213,173,109,1);
     border-radius: 10px;
     margin: 20px;
     justify-content: space-between;
     display: flex;
     align-items: center;
+    background-color: #fff;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
 }
 #croissantInfo, #macaroonInfo, #donutInfo{
     text-align: center;
     font-size: 28px;
     font-family: 'Satisfy', cursive;
 }
+#main_menu{
+    background-color: #21202d;
+    padding: 20px;
+}
+table{
+    margin:20px;
+    color: #fff;
+    margin-right: auto;
+    margin-left: auto;
+    width: 60%;
+}
+
+#td_img{
+    width:25%;
+    border-bottom: 1px solid rgba(213,173,109,1);
+    border-style: dashed;
+    border-top:none;
+    border-right: none;
+    border-left: none;
+}
+#td_name{
+    width:40%;
+    padding: 15px;
+    font-size: 30px;
+    font-family: 'Trade Winds';
+    border-bottom: 1px solid rgba(213,173,109,1);
+    border-style: dashed;
+    border-right: none;
+    border-left: none;
+    border-top: none;
+}
+#td_price{
+    width:20%;
+    font-size: 30px;
+    font-family: 'Trade Winds';
+    border-bottom: 1px solid rgba(213,173,109,1);
+    border-style: dashed;
+    border-top:none;
+    border-right: none;
+    border-left: none;
+    text-align: center;
+}
+td{
+    border-bottom: 1px solid rgba(213,173,109,1);
+    border-style: dashed;
+    border-top:none;
+    border-right: none;
+    border-left: none;
+}
+#td_img_1, #td_img_2, #td_img_3, #td_img_4, #td_img_5, 
+#td_img_6, #td_img_7, #td_img_8, #td_img_9, #td_img_10, 
+#td_img_11, #td_img_12, #td_img_13, #td_img_14, #td_img_15
+{
+    justify-content: center;
+    display: flex;
+    padding: 10px;
+}
+.macaroon_1, .macaroon_2, .macaroon_3, .macaroon_4{
+    width: 40%;
+    padding: 20px;
+}
+.croiss_1,  .croiss_3{
+    transform: rotate(45deg);
+    width:45%;
+}
+
+.croiss_2{
+    transform: rotate(310deg);
+    width:45%;
+}
+.donut_1, .donut_2, .donut_3, .donut_4, 
+.donut_5, .donut_6, .donut_7, .donut_8
+{
+    width: 45%;
+}
+#td_name_1, #td_name_2, #td_name_3, #td_name_4, #td_name_5,
+ #td_name_6, #td_name_7, #td_name_8, #td_name_9, #td_name_10, 
+ #td_name_11, #td_name_12, #td_name_13, #td_name_14, #td_name_15{
+    font-family: 'Trade Winds';
+    color: #fff;
+    font-size: 24px;
+}
+#td_price_1, #td_price_2, #td_price_3, #td_price_4, #td_price_5,
+#td_price_6, #td_price_7, #td_price_8, #td_price_9, #td_price_10,
+ #td_price_11, #td_price_12, #td_price_13, #td_price_14, #td_price_15
+{
+    font-size: 40px;
+    color: 	rgb(156, 124, 73);
+    font-family: 'Trade Winds';
+    text-align: center;
+}
+
+
 
 .logo{
     border: 43px solid transparent;

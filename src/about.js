@@ -30,6 +30,7 @@ const about = () =>{
     addImg('../dist/img/line_2.png','donutSection', 'donut_line');
     element('p', 'donutSection', 'donutInfo');
     document.getElementById('donutInfo').innerHTML = 'Delicious, high quality ingredients. Seasonal flavors. Handmade fresh daily. We pride ourself on originality, using the highest quality all natural ingredients, and making everything in-house from scratch — all glazes, fillings, jams and toppings.'
+    
 };
 
 export { about };
