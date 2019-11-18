@@ -26,7 +26,7 @@ button{
     margin-top: 10%;
 }
 
-#aboutHeader, #menuHeader{
+#aboutHeader, #menuHeader, #contactHeader {
     text-align: center;
     font-size: 60px;
     color: 	rgb(156, 124, 73);
@@ -118,7 +118,7 @@ table{
     border-left: none;
     text-align: center;
 }
-td{
+td, #phoneHeader, #emailHeader, #addressHeader, #timeHeader {
     border-bottom: 1px solid rgba(213,173,109,1);
     border-style: dashed;
     border-top:none;
@@ -167,8 +167,84 @@ td{
     font-family: 'Trade Winds';
     text-align: center;
 }
+#formSection{
+    padding:40px;
+}
 
+#contactForm{
+    font-size: 20px;
+    font-family: 'Trade Winds';
+    border: 1px solid #21202d;
+    border-style: dashed;
+    width:60%;
+    margin-left:auto;
+    margin-right:auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+input{
+    border-bottom: 1px solid #21202d;
+    background-color: transparent;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    font-size: 20px;
+    font-family: 'Trade Winds';
+}
+#nameP, #phoneP, #emailP{
+    display: flex;
+    flex-direction: column;
+    width: 27%;
+    padding: 23px;    
 
+}
+#messageP{
+    display: flex;
+    flex-direction: column;
+    width: 89%;
+    padding: 25px; 
+}
+
+#buttonInput{
+    width: 30%;
+    color: #fff;
+    background-color: #21202d;
+    margin-right: auto;
+    margin-left: auto;
+    border-radius: 5px;
+    padding: 5px;
+    font-size: 25px;
+}
+
+#infoSection{
+    color: #fff;
+    background-color: #21202d;
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+}
+#phoneInfo, #emailInfo, #addressInfo, #timeInfo
+{
+    list-style: none;
+    font-size: 24px;
+    font-family: 'Satisfy', cursive;
+    margin-left: auto;
+    margin-right: auto;
+}
+#time_1, #time_2, #address, #email, #phone{
+    list-style: none;
+    font-size: 20px;
+    font-family: 'Satisfy', cursive;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+}
+#imgEnding{
+    background-color: #21202d;
+    text-align: center;
+}
 
 .logo{
     border: 43px solid transparent;

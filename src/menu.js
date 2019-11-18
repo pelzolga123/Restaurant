@@ -1,14 +1,4 @@
-import { element } from './elements';
-
-const addImg = (url, divId, imgClass) =>{
-    const img = document.createElement('img');
-    const div = document.getElementById(divId);
-    console.log(div);
-    img.setAttribute('src', url);
-    img.setAttribute('class', imgClass);
-
-    div.appendChild(img);
-};
+import { element, addImg } from './elements';
 
 const createTableRow = (parentId, trId, tdImgId, tdNameId, tdPriceId, tdNameValue, tdPriceValue) =>{
     element('tr', parentId, trId);

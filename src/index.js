@@ -2,8 +2,7 @@ import { load } from "./load";
 import { about } from './about';
 import { menu } from './menu';
 import { contact } from './contact';
-import { element } from "./elements";
-
+import { element, addImg } from "./elements";
 
 const tabs = (name, divName) => {
   const btn = document.createElement('button');
@@ -12,16 +11,6 @@ const tabs = (name, divName) => {
   btn.setAttribute('id', name);
   div.appendChild(btn);
 }; 
-
-const addImg = (url, divId, imgClass) =>{
-  const img = document.createElement('img');
-  const div = document.getElementById(divId);
-
-  img.setAttribute('src', url);
-  img.setAttribute('class', imgClass);
-
-  div.appendChild(img);
-};
 
 function start (){
   
@@ -43,7 +32,6 @@ function start (){
     buttons();
 }
 
-
 function buttons(){
   const btnMenu = document.getElementById('Menu');
   const btnAbout = document.getElementById('About');
@@ -51,23 +39,23 @@ function buttons(){
   const scroll = document.getElementById('main');
 
   btnMenu.addEventListener('click', () => {
-    testing('Menu');
+    main('Menu');
     scroll.scrollIntoView();
   });
 
   btnAbout.addEventListener('click', () => {
-    testing('About');
+    main('About')
     scroll.scrollIntoView();
   });
 
   btnContact.addEventListener('click', () => {
-    testing('Contact');
+    main('Contact');
     scroll.scrollIntoView();
   });
 }
 
 
-function testing(id){
+function main(id){
   load();
   pages(id);
 }
@@ -94,5 +82,5 @@ function pages(page){
   }  
 }
 start();
-testing('About');
+main('Contact');
   

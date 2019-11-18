@@ -6,4 +6,13 @@ const element = (elem, parent, id) =>{
     
     return id;
 };
-export { element };
+
+const addImg = (url, divId, imgClass) =>{
+    const img = document.createElement('img');
+    const div = document.getElementById(divId);
+    img.setAttribute('src', url);
+    img.setAttribute('class', imgClass);
+
+    div.appendChild(img);
+};
+export { element, addImg };
