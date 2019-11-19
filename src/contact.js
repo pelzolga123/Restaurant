@@ -75,8 +75,8 @@ const contact = () => {
   document.getElementById('time_2').innerHTML = 'Saturday - Sunday: 10:00 am - 16:30 pm';
 
   element('div', 'main', 'imgEnding');
-  addImg('../dist/img/sweets_1.png', 'imgEnding', 'sweets_1');
-  addImg('../dist/img/sweets_2.png', 'imgEnding', 'sweets_2');
-  addImg('../dist/img/sweets_3.png', 'imgEnding', 'sweets_3');
+  addImg('https://pelzolga123.github.io/Restaurant/img/sweets_1.png', 'imgEnding', 'sweets_1');
+  addImg('https://pelzolga123.github.io/Restaurant/img/sweets_2.png', 'imgEnding', 'sweets_2');
+  addImg('https://pelzolga123.github.io/Restaurant/img/sweets_3.png', 'imgEnding', 'sweets_3');
 };
 export default contact;

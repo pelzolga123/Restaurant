@@ -65,7 +65,7 @@ function start() {
   element('div', 'content', 'main');
 
   element('div', 'layer', 'logo_img');
-  addImg('../dist/img/logo.png', 'logo_img', 'logo');
+  addImg('https://pelzolga123.github.io/Restaurant/img/logo.png', 'logo_img', 'logo');
 
   element('div', 'layer', 'buttons');
   tabs('About', 'buttons');
