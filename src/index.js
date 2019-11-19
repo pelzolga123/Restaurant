@@ -1,6 +1,6 @@
 import load from './load';
 import about from './about';
-import menu  from './menu';
+import menu from './menu';
 import contact from './contact';
 import { element, addImg } from './elements';
 
@@ -28,7 +28,7 @@ function pages(page) {
 
     default:
       about();
-      break;   
+      break;
   }
 }
 
@@ -59,7 +59,7 @@ function buttons() {
   });
 }
 
-function start () {
+function start() {
   element('div', 'content', 'firstSection');
   element('div', 'firstSection', 'layer');
   element('div', 'content', 'main');

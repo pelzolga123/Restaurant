@@ -1,12 +1,12 @@
 import { element, addImg } from './elements';
 
-const createTableRow = (parentId, trId, tdImgId, tdNameId, tdPriceId, tdNameValue, tdPriceValue) => {
+const createTableRow = (parentId, trId, tdImgId, tdNameId, tdPriceId, tdNameV, tdPriceV) => {
   element('tr', parentId, trId);
   element('td', trId, tdImgId);
   element('td', trId, tdNameId);
   element('td', trId, tdPriceId);
-  document.getElementById(tdNameId).innerHTML = tdNameValue;
-  document.getElementById(tdPriceId).innerHTML = tdPriceValue;
+  document.getElementById(tdNameId).innerHTML = tdNameV;
+  document.getElementById(tdPriceId).innerHTML = tdPriceV;
 };
 
 const menu = () => {
