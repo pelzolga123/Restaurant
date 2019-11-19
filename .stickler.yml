@@ -8,3 +8,6 @@ files:
     ignore:
         - 'src/generated/*'
         - 'webroot/bower_components/*'
+        - 'dist/*'
+        - 'webpack.config.js'
+        - 'dist/main.js'

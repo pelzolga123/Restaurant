@@ -4,4 +4,4 @@ const load = () => {
     main.removeChild(main.firstChild);
   }
 };
-export { load };
+export default load;

@@ -25,7 +25,7 @@ const menu = () => {
 
   createTableRow('menu_table', 'menu_tr_3', 'td_img_3', 'td_name_3', 'td_price_3', 'Raspberry croissant with vanilla cream', '10$');
   addImg('../dist/img/croiss_3.png', 'td_img_3', 'croiss_3');
-    
+
   createTableRow('menu_table', 'menu_tr_4', 'td_img_4', 'td_name_4', 'td_price_4', 'Strawberry cheesecake macaron', '7$');
   addImg('../dist/img/pink_macaroon.png', 'td_img_4', 'macaroon_1');
 
@@ -36,7 +36,7 @@ const menu = () => {
   addImg('../dist/img/violet_macaroon.png', 'td_img_6', 'macaroon_3');
 
   createTableRow('menu_table', 'menu_tr_7', 'td_img_7', 'td_name_7', 'td_price_7', 'Lime & Gin coconut macaron', '7$');
-  addImg('../dist/img/green_macaroon.png', 'td_img_7', 'macaroon_4')
+  addImg('../dist/img/green_macaroon.png', 'td_img_7', 'macaroon_4');
 
   createTableRow('menu_table', 'menu_tr_8', 'td_img_8', 'td_name_8', 'td_price_8', 'Mango coconut donut', '5$');
   addImg('../dist/img/donut_1.png', 'td_img_8', 'donut_1');
@@ -60,6 +60,6 @@ const menu = () => {
   addImg('../dist/img/donut_7.png', 'td_img_14', 'donut_7');
 
   createTableRow('menu_table', 'menu_tr_15', 'td_img_15', 'td_name_15', 'td_price_15', 'Champagne panna cotta donut', '5$');
-  addImg('../dist/img/donut_8.png', 'td_img_15', 'donut_8');   
+  addImg('../dist/img/donut_8.png', 'td_img_15', 'donut_8');
 };
-export { menu };
+export default menu;

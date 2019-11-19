@@ -1,7 +1,7 @@
-import { load } from './load';
-import { about } from './about';
-import { menu } from './menu';
-import { contact } from './contact';
+import load from './load';
+import about from './about';
+import menu  from './menu';
+import contact from './contact';
 import { element, addImg } from './elements';
 
 const tabs = (name, divName) => {
@@ -11,22 +11,6 @@ const tabs = (name, divName) => {
   btn.setAttribute('id', name);
   div.appendChild(btn);
 };
-
-function start () {
-  element('div', 'content', 'firstSection');
-  element('div', 'firstSection', 'layer')
-  element('div', 'content', 'main');
-
-  element('div', 'layer', 'logo_img');
-  addImg('../dist/img/logo_2.png', 'logo_img', 'logo');
-
-  element('div', 'layer', 'buttons');
-  tabs('About', 'buttons');
-  tabs('Menu', 'buttons');
-  tabs('Contact', 'buttons');
-
-  buttons();
-}
 
 function pages(page) {
   switch (page) {
@@ -73,6 +57,22 @@ function buttons() {
     main('Contact');
     scroll.scrollIntoView();
   });
+}
+
+function start () {
+  element('div', 'content', 'firstSection');
+  element('div', 'firstSection', 'layer');
+  element('div', 'content', 'main');
+
+  element('div', 'layer', 'logo_img');
+  addImg('../dist/img/logo_2.png', 'logo_img', 'logo');
+
+  element('div', 'layer', 'buttons');
+  tabs('About', 'buttons');
+  tabs('Menu', 'buttons');
+  tabs('Contact', 'buttons');
+
+  buttons();
 }
 
 start();

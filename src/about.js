@@ -22,4 +22,4 @@ const about = () => {
   document.getElementById('donutInfo').innerHTML = 'Delicious, high quality ingredients. Seasonal flavors. Handmade fresh daily. We pride ourself on originality, using the highest quality all natural ingredients, and making everything in-house from scratch — all glazes, fillings, jams and toppings.';
 };
 
-export { about };
+export default about;

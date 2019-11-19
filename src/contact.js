@@ -19,16 +19,16 @@ const contact = () => {
   element('label', 'phoneP', 'phoneLabel');
   document.getElementById('phoneLabel').innerHTML = 'Phone';
   document.getElementById('phoneLabel').setAttribute('for', 'phoneInput');
- 
+
   element('input', 'phoneP', 'phoneInput');
   document.getElementById('phoneInput').setAttribute('type', 'tel');
-  document.getElementById('phoneInput').setAttribute('pattern','[0-9]{3}-[0-9]{2}-[0-9]{3}');
+  document.getElementById('phoneInput').setAttribute('pattern', '[0-9]{3}-[0-9]{2}-[0-9]{3}');
 
   element('p', 'contactForm', 'emailP');
   element('label', 'emailP', 'emailLabel');
   document.getElementById('emailLabel').innerHTML = 'Email';
   document.getElementById('emailLabel').setAttribute('for', 'emailInput');
- 
+
   element('input', 'emailP', 'emailInput');
   document.getElementById('emailInput').innerHTML = 'Email';
   document.getElementById('emailInput').setAttribute('type', 'email');
@@ -44,8 +44,8 @@ const contact = () => {
 
   element('input', 'contactForm', 'buttonInput');
   document.getElementById('buttonInput').setAttribute('type', 'submit');
-  document.getElementById('buttonInput').value = 'Submit'; 
-  
+  document.getElementById('buttonInput').value = 'Submit';
+
   element('div', 'main', 'infoSection');
 
   element('ul', 'infoSection', 'phoneInfo');
@@ -79,4 +79,4 @@ const contact = () => {
   addImg('../dist/img/sweets_2.png', 'imgEnding', 'sweets_2');
   addImg('../dist/img/sweets_3.png', 'imgEnding', 'sweets_3');
 };
-export { contact };
+export default contact;
