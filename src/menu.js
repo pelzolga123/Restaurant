@@ -33,33 +33,33 @@ const menu = () => {
   addImg('https://pelzolga123.github.io/Restaurant/img/yellow_macaroon.png', 'td_img_5', 'macaroon_2');
 
   createTableRow('menu_table', 'menu_tr_6', 'td_img_6', 'td_name_6', 'td_price_6', 'Lavender coconut macaron', '7$');
-  addImg('https://pelzolga123.github.io/Restaurant/dist/img/violet_macaroon.png', 'td_img_6', 'macaroon_3');
+  addImg('https://pelzolga123.github.io/Restaurant/img/violet_macaroon.png', 'td_img_6', 'macaroon_3');
 
   createTableRow('menu_table', 'menu_tr_7', 'td_img_7', 'td_name_7', 'td_price_7', 'Lime & Gin coconut macaron', '7$');
-  addImg('https://pelzolga123.github.io/Restaurant/dist/img/green_macaroon.png', 'td_img_7', 'macaroon_4');
+  addImg('https://pelzolga123.github.io/Restaurant/img/green_macaroon.png', 'td_img_7', 'macaroon_4');
 
   createTableRow('menu_table', 'menu_tr_8', 'td_img_8', 'td_name_8', 'td_price_8', 'Mango coconut donut', '5$');
-  addImg('https://pelzolga123.github.io/Restaurant/dist/img/donut_1.png', 'td_img_8', 'donut_1');
+  addImg('https://pelzolga123.github.io/Restaurant/img/donut_1.png', 'td_img_8', 'donut_1');
 
   createTableRow('menu_table', 'menu_tr_9', 'td_img_9', 'td_name_9', 'td_price_9', 'Raspberry pistachio donut', '5$');
-  addImg('https://pelzolga123.github.io/Restaurant/dist/img/donut_2.png', 'td_img_9', 'donut_2');
+  addImg('https://pelzolga123.github.io/Restaurant/img/donut_2.png', 'td_img_9', 'donut_2');
 
   createTableRow('menu_table', 'menu_tr_10', 'td_img_10', 'td_name_10', 'td_price_10', 'Triple chocolate donut', '5$');
-  addImg('https://pelzolga123.github.io/Restaurant/dist/img/donut_3.png', 'td_img_10', 'donut_3');
+  addImg('https://pelzolga123.github.io/Restaurant/img/donut_3.png', 'td_img_10', 'donut_3');
 
   createTableRow('menu_table', 'menu_tr_11', 'td_img_11', 'td_name_11', 'td_price_11', 'Vanilla cherry donut', '5$');
-  addImg('https://pelzolga123.github.io/Restaurant/dist/img/donut_4.png', 'td_img_11', 'donut_4');
+  addImg('https://pelzolga123.github.io/Restaurant/img/donut_4.png', 'td_img_11', 'donut_4');
 
   createTableRow('menu_table', 'menu_tr_12', 'td_img_12', 'td_name_12', 'td_price_12', 'Prosecco donut', '5$');
-  addImg('https://pelzolga123.github.io/Restaurant/dist/img/donut_5.png', 'td_img_12', 'donut_5');
+  addImg('https://pelzolga123.github.io/Restaurant/img/donut_5.png', 'td_img_12', 'donut_5');
 
   createTableRow('menu_table', 'menu_tr_13', 'td_img_13', 'td_name_13', 'td_price_13', 'Strawberry chocolate donut', '5$');
-  addImg('https://pelzolga123.github.io/Restaurant/dist/img/donut_6.png', 'td_img_13', 'donut_6');
+  addImg('https://pelzolga123.github.io/Restaurant/img/donut_6.png', 'td_img_13', 'donut_6');
 
   createTableRow('menu_table', 'menu_tr_14', 'td_img_14', 'td_name_14', 'td_price_14', 'Blueberry coconut donut', '5$');
-  addImg('https://pelzolga123.github.io/Restaurant/dist/img/donut_7.png', 'td_img_14', 'donut_7');
+  addImg('https://pelzolga123.github.io/Restaurant/img/donut_7.png', 'td_img_14', 'donut_7');
 
   createTableRow('menu_table', 'menu_tr_15', 'td_img_15', 'td_name_15', 'td_price_15', 'Champagne panna cotta donut', '5$');
-  addImg('https://pelzolga123.github.io/Restaurant/dist/img/donut_8.png', 'td_img_15', 'donut_8');
+  addImg('https://pelzolga123.github.io/Restaurant/img/donut_8.png', 'td_img_15', 'donut_8');
 };
 export default menu;
