@@ -44,7 +44,7 @@ button{
     top: 0;
     left: 0;
     width: 100%;
-    height: 100%;
+    height:949px;
     text-align: center;
     font-family: 'Dancing Script', cursive;
 }
@@ -131,7 +131,7 @@ td, #phoneHeader, #emailHeader, #addressHeader, #timeHeader {
 {
     justify-content: center;
     display: flex;
-    padding: 10px;
+    padding: 20px;
 }
 .macaroon_1, .macaroon_2, .macaroon_3, .macaroon_4{
     width: 40%;
@@ -280,4 +280,196 @@ input{
 @-o-keyframes fadein {
     from { opacity: 0; }
     to   { opacity: 1; }
+}
+
+@media only screen and (max-width: 600px){
+    #aboutHeader, #menuHeader, #contactHeader {
+        font-size:30px;
+    }
+
+    button {
+        font-size:30px;
+    }
+
+    .logo{
+        width:40%;
+    }
+
+ #td_name_1, #td_name_2, #td_name_3, #td_name_4, #td_name_5,
+ #td_name_6, #td_name_7, #td_name_8, #td_name_9, #td_name_10, 
+ #td_name_11, #td_name_12, #td_name_13, #td_name_14, #td_name_15{
+    font-size: 12px;
+}
+#td_price_1, #td_price_2, #td_price_3, #td_price_4, #td_price_5,
+#td_price_6, #td_price_7, #td_price_8, #td_price_9, #td_price_10,
+#td_price_11, #td_price_12, #td_price_13, #td_price_14, #td_price_15{
+    font-size: 20px;
+ }
+#menu_table{
+    width: 95%;
+}
+
+.macaroon_1, .macaroon_2, .macaroon_3, .macaroon_4{
+    width: 50%;
+    padding: 20px;
+}
+.croiss_1,  .croiss_3{
+    transform: rotate(45deg);
+    width:54%;
+}
+
+.croiss_2{
+    transform: rotate(310deg);
+    width:54%;
+}
+.donut_1, .donut_2, .donut_3, .donut_4, 
+.donut_5, .donut_6, .donut_7, .donut_8
+{
+    width: 54%;
+}
+#croissantSection{
+    background: url("../img/about-croissant.jpg") no-repeat;
+    background-size: contain;
+    padding: 49px 73px;
+    width: 239px;
+    color: #fff;
+}
+.croissant, .croissant_line, .macaroon, .macaroon_line, .donut, .donut_line{
+    display: none;
+}
+#croissantInfo, #donutInfo, #macaroonInfo{
+    font-size: 22px;
+    margin:0;
+}
+#macaroonSection{
+    background: url("../img/about-macaroon.jpg") no-repeat;
+    background-size: contain;
+    padding: 48px 73px;
+    width: 239px;
+    color: #fff;
+} 
+#donutSection{
+    background: url("../img/about-donut.jpg") no-repeat;
+    background-size: contain;
+    padding: 129px 73px;
+    width: 239px;
+    color: #fff;
+}
+#td_img_1, #td_img_2, #td_img_3, #td_img_4, #td_img_5, 
+#td_img_6, #td_img_7, #td_img_8, #td_img_9, #td_img_10, 
+#td_img_11, #td_img_12, #td_img_13, #td_img_14, #td_img_15
+{
+    padding: 20px;
+}
+#contactForm {
+    width: 90%;
+    flex-direction: column;
+}
+#nameP, #phoneP, #emailP {
+    width: 90%;
+}
+#buttonInput {
+    width: 90%;
+}
+#infoSection {
+    flex-wrap: wrap;
+    justify-content: left;
+}
+#phoneInfo, #emailInfo, #addressInfo, #timeInfo {
+    margin-left: 0; 
+    margin-right: 0;
+}
+.sweets_1{
+    width: 25%;
+}     
+.sweets_3{
+    width: 40%;
+}     
+button{
+    margin-left:10px;
+}
+#td_name, #td_price {
+    font-size: 20px;
+}
+}
+@media only screen and (min-width: 601px) and (max-width: 992px){
+   
+
+    #contactForm {
+        width: 90%;
+        flex-direction: column;
+    }
+    #nameP, #phoneP, #emailP {
+        width: 90%;
+    }
+    #buttonInput {
+        width: 90%;
+    }
+
+    #td_name_1, #td_name_2, #td_name_3, #td_name_4, #td_name_5,
+    #td_name_6, #td_name_7, #td_name_8, #td_name_9, #td_name_10, 
+    #td_name_11, #td_name_12, #td_name_13, #td_name_14, #td_name_15{
+       font-size: 18px;
+   }
+   #td_price_1, #td_price_2, #td_price_3, #td_price_4, #td_price_5,
+   #td_price_6, #td_price_7, #td_price_8, #td_price_9, #td_price_10,
+   #td_price_11, #td_price_12, #td_price_13, #td_price_14, #td_price_15{
+       font-size: 26px;
+    }
+   #menu_table{
+       width: 95%;
+   }
+   
+   .macaroon_1, .macaroon_2, .macaroon_3, .macaroon_4{
+       width: 50%;
+       padding: 20px;
+   }
+   .croiss_1,  .croiss_3{
+       transform: rotate(45deg);
+       width:54%;
+   }
+   
+   .croiss_2{
+       transform: rotate(310deg);
+       width:54%;
+   }
+   .donut_1, .donut_2, .donut_3, .donut_4, 
+   .donut_5, .donut_6, .donut_7, .donut_8
+   {
+       width: 54%;
+   }
+   #croissantSection{
+       background: url("../img/about-croissant.jpg") no-repeat;
+       background-size: contain;
+       padding: 137px 73px;
+       width: 360px;
+       color: #fff;
+   }
+   .croissant, .croissant_line, .macaroon, .macaroon_line, .donut, .donut_line{
+       display: none;
+   }
+   #croissantInfo, #donutInfo, #macaroonInfo{
+       font-size: 28px;
+       margin:0;
+   }
+   #macaroonSection{
+       background: url("../img/about-macaroon.jpg") no-repeat;
+       background-size: contain;
+       padding: 139px 73px;
+       width: 360px;
+       color: #fff;
+   } 
+   #donutSection{
+       background: url("../img/about-donut.jpg") no-repeat;
+       background-size: contain;
+       padding: 200px 73px;
+       width: 360px;
+       color: #fff;
+   }
+   #td_img_1, #td_img_2, #td_img_3, #td_img_4, #td_img_5, 
+   #td_img_6, #td_img_7, #td_img_8, #td_img_9, #td_img_10, 
+   #td_img_11, #td_img_12, #td_img_13, #td_img_14, #td_img_15
+   {
+       padding: 20px;
+   }
 }
