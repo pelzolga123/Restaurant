@@ -20,7 +20,7 @@ const menu = () => {
     createTableRow('menu_table', 'menu_tr_1', 'td_img_1', 'td_name_1', 'td_price_1', 'Vanilla croissant with sprinckles', '10$');
     addImg('../dist/img/croiss_1.png','td_img_1','croiss_1');
 
-    createTableRow('menu_table', 'menu_tr_2', 'td_img_2', 'td_name_2', 'td_price_2', 'Strawberry croissant with chockolate and sprinckles', '10$');
+    createTableRow('menu_table', 'menu_tr_2', 'td_img_2', 'td_name_2', 'td_price_2', 'Strawberry croissant with chockolate sprinckles', '10$');
     addImg('../dist/img/croiss_5.png','td_img_2','croiss_2');
 
     createTableRow('menu_table', 'menu_tr_3', 'td_img_3', 'td_name_3', 'td_price_3', 'Raspberry croissant with vanilla cream', '10$');
