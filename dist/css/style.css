@@ -1,0 +1,475 @@
+@import url('https://fonts.googleapis.com/css?family=Dancing+Script:400,700|Satisfy&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Satisfy|Trade+Winds&display=swap');
+body{
+    margin: 0;
+    background-color: #E6D0B5;
+}
+#firstSection{
+    background: url("../img/about-main.jpg") no-repeat;
+    height:949px;
+}
+
+button{
+    font-size: 60px;
+    color: 	rgb(156, 124, 73);
+    margin-left: 5px;
+    border: none;
+    background-color: transparent;
+    font-family: 'Satisfy', cursive;
+    background: -webkit-linear-gradient(transparent, transparent),
+    -webkit-linear-gradient(top, rgba(213,173,109,1) 0%, rgba(213,173,109,1) 26%, rgba(226,186,120,1) 35%, rgba(163,126,67,1) 45%, rgba(145,112,59,1) 61%, rgba(213,173,109,1) 100%);
+    background: -o-linear-gradient(transparent, transparent);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-left: 45px;
+    cursor:pointer;
+    margin-top: 10%;
+}
+
+#aboutHeader, #menuHeader, #contactHeader {
+    text-align: center;
+    font-size: 60px;
+    color: 	rgb(156, 124, 73);
+    background-color: transparent;
+    font-family: 'Satisfy', cursive;
+    background: -webkit-linear-gradient(transparent, transparent),
+    -webkit-linear-gradient(top, rgba(213,173,109,1) 0%, rgba(213,173,109,1) 26%, rgba(226,186,120,1) 35%, rgba(163,126,67,1) 45%, rgba(145,112,59,1) 61%, rgba(213,173,109,1) 100%);
+    background: -o-linear-gradient(transparent, transparent);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+#layer{
+    background-color: rgba(99, 99, 102, 0.8);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height:949px;
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+}
+.croissant, .macaroon, .donut{
+    width:25%;
+}
+.donut_line, .croissant_line, .macaroon_line{
+    margin-right: 5%;
+    margin-left: 5%;
+}
+#logo_img{
+    padding: 140px 0 25px 0;
+}
+#croissantSection, #macaroonSection, #donutSection{
+    padding: 20px 20px;
+    border: 3px solid rgba(213,173,109,1);
+    border-radius: 10px;
+    margin: 20px;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+#croissantInfo, #macaroonInfo, #donutInfo{
+    text-align: center;
+    font-size: 28px;
+    font-family: 'Satisfy', cursive;
+}
+#main_menu{
+    background-color: #21202d;
+    padding: 20px;
+}
+table{
+    margin:20px;
+    color: #fff;
+    margin-right: auto;
+    margin-left: auto;
+    width: 60%;
+}
+
+#td_img{
+    width:25%;
+    border-bottom: 1px solid rgba(213,173,109,1);
+    border-style: dashed;
+    border-top:none;
+    border-right: none;
+    border-left: none;
+}
+#td_name{
+    width:40%;
+    padding: 15px;
+    font-size: 30px;
+    font-family: 'Trade Winds';
+    border-bottom: 1px solid rgba(213,173,109,1);
+    border-style: dashed;
+    border-right: none;
+    border-left: none;
+    border-top: none;
+}
+#td_price{
+    width:20%;
+    font-size: 30px;
+    font-family: 'Trade Winds';
+    border-bottom: 1px solid rgba(213,173,109,1);
+    border-style: dashed;
+    border-top:none;
+    border-right: none;
+    border-left: none;
+    text-align: center;
+}
+td, #phoneHeader, #emailHeader, #addressHeader, #timeHeader {
+    border-bottom: 1px solid rgba(213,173,109,1);
+    border-style: dashed;
+    border-top:none;
+    border-right: none;
+    border-left: none;
+}
+#td_img_1, #td_img_2, #td_img_3, #td_img_4, #td_img_5, 
+#td_img_6, #td_img_7, #td_img_8, #td_img_9, #td_img_10, 
+#td_img_11, #td_img_12, #td_img_13, #td_img_14, #td_img_15
+{
+    justify-content: center;
+    display: flex;
+    padding: 20px;
+}
+.macaroon_1, .macaroon_2, .macaroon_3, .macaroon_4{
+    width: 40%;
+    padding: 20px;
+}
+.croiss_1,  .croiss_3{
+    transform: rotate(45deg);
+    width:45%;
+}
+
+.croiss_2{
+    transform: rotate(310deg);
+    width:45%;
+}
+.donut_1, .donut_2, .donut_3, .donut_4, 
+.donut_5, .donut_6, .donut_7, .donut_8
+{
+    width: 45%;
+}
+#td_name_1, #td_name_2, #td_name_3, #td_name_4, #td_name_5,
+ #td_name_6, #td_name_7, #td_name_8, #td_name_9, #td_name_10, 
+ #td_name_11, #td_name_12, #td_name_13, #td_name_14, #td_name_15{
+    font-family: 'Trade Winds';
+    color: #fff;
+    font-size: 24px;
+}
+#td_price_1, #td_price_2, #td_price_3, #td_price_4, #td_price_5,
+#td_price_6, #td_price_7, #td_price_8, #td_price_9, #td_price_10,
+ #td_price_11, #td_price_12, #td_price_13, #td_price_14, #td_price_15
+{
+    font-size: 40px;
+    color: 	rgb(156, 124, 73);
+    font-family: 'Trade Winds';
+    text-align: center;
+}
+#formSection{
+    padding:40px;
+}
+
+#contactForm{
+    font-size: 20px;
+    font-family: 'Trade Winds';
+    border: 1px solid #21202d;
+    border-style: dashed;
+    width:60%;
+    margin-left:auto;
+    margin-right:auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+input{
+    border-bottom: 1px solid #21202d;
+    background-color: transparent;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    font-size: 20px;
+    font-family: 'Trade Winds';
+}
+#nameP, #phoneP, #emailP{
+    display: flex;
+    flex-direction: column;
+    width: 27%;
+    padding: 23px;    
+
+}
+#messageP{
+    display: flex;
+    flex-direction: column;
+    width: 89%;
+    padding: 25px; 
+}
+
+#buttonInput{
+    width: 30%;
+    color: #fff;
+    background-color: #21202d;
+    margin-right: auto;
+    margin-left: auto;
+    border-radius: 5px;
+    padding: 5px;
+    font-size: 25px;
+}
+
+#infoSection{
+    color: #fff;
+    background-color: #21202d;
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+}
+#phoneInfo, #emailInfo, #addressInfo, #timeInfo
+{
+    list-style: none;
+    font-size: 24px;
+    font-family: 'Satisfy', cursive;
+    margin-left: auto;
+    margin-right: auto;
+}
+#time_1, #time_2, #address, #email, #phone{
+    list-style: none;
+    font-size: 20px;
+    font-family: 'Satisfy', cursive;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+}
+#imgEnding{
+    background-color: #21202d;
+    text-align: center;
+}
+
+.logo{
+    border: 43px solid transparent;
+    padding: 15px;
+    border-image: url(../img/line_1.png) 55 stretch stretch;
+
+    -webkit-animation: fadein 4s;
+       -moz-animation: fadein 4s; 
+        -ms-animation: fadein 4s; 
+         -o-animation: fadein 4s; 
+            animation: fadein 4s;
+}
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+@-moz-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+@-webkit-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+@-ms-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+@-o-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+@media only screen and (max-width: 600px){
+    #aboutHeader, #menuHeader, #contactHeader {
+        font-size:30px;
+    }
+
+    button {
+        font-size:30px;
+    }
+
+    .logo{
+        width:40%;
+    }
+
+ #td_name_1, #td_name_2, #td_name_3, #td_name_4, #td_name_5,
+ #td_name_6, #td_name_7, #td_name_8, #td_name_9, #td_name_10, 
+ #td_name_11, #td_name_12, #td_name_13, #td_name_14, #td_name_15{
+    font-size: 12px;
+}
+#td_price_1, #td_price_2, #td_price_3, #td_price_4, #td_price_5,
+#td_price_6, #td_price_7, #td_price_8, #td_price_9, #td_price_10,
+#td_price_11, #td_price_12, #td_price_13, #td_price_14, #td_price_15{
+    font-size: 20px;
+ }
+#menu_table{
+    width: 95%;
+}
+
+.macaroon_1, .macaroon_2, .macaroon_3, .macaroon_4{
+    width: 50%;
+    padding: 20px;
+}
+.croiss_1,  .croiss_3{
+    transform: rotate(45deg);
+    width:54%;
+}
+
+.croiss_2{
+    transform: rotate(310deg);
+    width:54%;
+}
+.donut_1, .donut_2, .donut_3, .donut_4, 
+.donut_5, .donut_6, .donut_7, .donut_8
+{
+    width: 54%;
+}
+#croissantSection{
+    background: url("../img/about-croissant.jpg") no-repeat;
+    background-size: contain;
+    padding: 49px 73px;
+    width: 239px;
+    color: #fff;
+}
+.croissant, .croissant_line, .macaroon, .macaroon_line, .donut, .donut_line{
+    display: none;
+}
+#croissantInfo, #donutInfo, #macaroonInfo{
+    font-size: 22px;
+    margin:0;
+}
+#macaroonSection{
+    background: url("../img/about-macaroon.jpg") no-repeat;
+    background-size: contain;
+    padding: 48px 73px;
+    width: 239px;
+    color: #fff;
+} 
+#donutSection{
+    background: url("../img/about-donut.jpg") no-repeat;
+    background-size: contain;
+    padding: 129px 73px;
+    width: 239px;
+    color: #fff;
+}
+#td_img_1, #td_img_2, #td_img_3, #td_img_4, #td_img_5, 
+#td_img_6, #td_img_7, #td_img_8, #td_img_9, #td_img_10, 
+#td_img_11, #td_img_12, #td_img_13, #td_img_14, #td_img_15
+{
+    padding: 20px;
+}
+#contactForm {
+    width: 90%;
+    flex-direction: column;
+}
+#nameP, #phoneP, #emailP {
+    width: 90%;
+}
+#buttonInput {
+    width: 90%;
+}
+#infoSection {
+    flex-wrap: wrap;
+    justify-content: left;
+}
+#phoneInfo, #emailInfo, #addressInfo, #timeInfo {
+    margin-left: 0; 
+    margin-right: 0;
+}
+.sweets_1{
+    width: 25%;
+}     
+.sweets_3{
+    width: 40%;
+}     
+button{
+    margin-left:10px;
+}
+#td_name, #td_price {
+    font-size: 20px;
+}
+}
+@media only screen and (min-width: 601px) and (max-width: 992px){
+   
+
+    #contactForm {
+        width: 90%;
+        flex-direction: column;
+    }
+    #nameP, #phoneP, #emailP {
+        width: 90%;
+    }
+    #buttonInput {
+        width: 90%;
+    }
+
+    #td_name_1, #td_name_2, #td_name_3, #td_name_4, #td_name_5,
+    #td_name_6, #td_name_7, #td_name_8, #td_name_9, #td_name_10, 
+    #td_name_11, #td_name_12, #td_name_13, #td_name_14, #td_name_15{
+       font-size: 18px;
+   }
+   #td_price_1, #td_price_2, #td_price_3, #td_price_4, #td_price_5,
+   #td_price_6, #td_price_7, #td_price_8, #td_price_9, #td_price_10,
+   #td_price_11, #td_price_12, #td_price_13, #td_price_14, #td_price_15{
+       font-size: 26px;
+    }
+   #menu_table{
+       width: 95%;
+   }
+   
+   .macaroon_1, .macaroon_2, .macaroon_3, .macaroon_4{
+       width: 50%;
+       padding: 20px;
+   }
+   .croiss_1,  .croiss_3{
+       transform: rotate(45deg);
+       width:54%;
+   }
+   
+   .croiss_2{
+       transform: rotate(310deg);
+       width:54%;
+   }
+   .donut_1, .donut_2, .donut_3, .donut_4, 
+   .donut_5, .donut_6, .donut_7, .donut_8
+   {
+       width: 54%;
+   }
+   #croissantSection{
+       background: url("../img/about-croissant.jpg") no-repeat;
+       background-size: contain;
+       padding: 137px 73px;
+       width: 360px;
+       color: #fff;
+   }
+   .croissant, .croissant_line, .macaroon, .macaroon_line, .donut, .donut_line{
+       display: none;
+   }
+   #croissantInfo, #donutInfo, #macaroonInfo{
+       font-size: 28px;
+       margin:0;
+   }
+   #macaroonSection{
+       background: url("../img/about-macaroon.jpg") no-repeat;
+       background-size: contain;
+       padding: 139px 73px;
+       width: 360px;
+       color: #fff;
+   } 
+   #donutSection{
+       background: url("../img/about-donut.jpg") no-repeat;
+       background-size: contain;
+       padding: 200px 73px;
+       width: 360px;
+       color: #fff;
+   }
+   #td_img_1, #td_img_2, #td_img_3, #td_img_4, #td_img_5, 
+   #td_img_6, #td_img_7, #td_img_8, #td_img_9, #td_img_10, 
+   #td_img_11, #td_img_12, #td_img_13, #td_img_14, #td_img_15
+   {
+       padding: 20px;
+   }
+}
