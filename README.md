@@ -11,5 +11,14 @@ Restaurant webpage is created dynamically with ES6 modules. Each tab is rendered
 * Javascript
 * CSS
 
+## Development
+
+* Clone project
+```
+git clone https://github.com/pelzolga123/Restaurant.git
+```
+* Install depen
+
+
 ## Contributor
 [Olga Pelts](https://github.com/pelzolga123)

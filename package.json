@@ -4,10 +4,13 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "webpack"
+    "dev": "webpack --mode development",
+    "build": "webpack --mode production",
+    "start": "webpack-dev-server --mode development --open"
   },
-  "dependencies": {},
+  "dependencies": {
+    "webpack-dev-server": "^3.9.0"
+  },
   "devDependencies": {
     "webpack": "^4.41.2",
     "webpack-cli": "^3.3.10"
