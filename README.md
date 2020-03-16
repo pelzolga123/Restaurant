@@ -28,7 +28,7 @@ npm run build
 ```
 Then open index.html in browser.
 
-## Authors
+## Author
 
 👤 **Olga Pelts**
    - Github: [@pelzolga123](https://github.com/pelzolga123)
