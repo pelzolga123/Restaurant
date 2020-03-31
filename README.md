@@ -2,7 +2,7 @@
 <img src="https://i.ibb.co/kQcKNrD/restaurant-project.png" alt="restaurant-project" border="0">
 
 ## About The Project
-Restaurant webpage is created dynamically with ES6 modules. Each tab is rendered dynamically by a separate module, each of which is imported from its own separate JavaScript file. Webpack then bundles all the source JavaScript into a single file, 'main.js', in the 'dist' directory.
+The restaurant webpage is created dynamically with ES6 modules. Each tab is rendered dynamically by a separate module, each of which is imported from its own separate JavaScript file. Webpack then bundles all the source JavaScript into a single file, 'main.js', in the 'dist' directory.
 
 ## Live version
 [Restaurant](https://pelzolga123.github.io/Restaurant/)
@@ -26,7 +26,7 @@ npm install
 ```
 npm run build
 ```
-Then open index.html in browser.
+Then open index.html in the browser.
 
 ## Author
 
